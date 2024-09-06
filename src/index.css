@@ -10,11 +10,6 @@ img {
   color: white;
 }
 
-/* @media (min-width: 320px) and (max-width: 650px) {
-  .app {
-    margin: 0;
-  }
-} */
 @font-face {
   font-family: K2D;
   src: url(/fonts/K2D-ExtraBold.ttf);

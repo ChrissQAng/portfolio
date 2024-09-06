@@ -26,10 +26,10 @@ h3 {
 .name-portrait {
   display: flex;
   align-items: center;
-  width: 60vw;
+  width: 80vw;
 }
 .name-portrait img {
-  scale: 0.5;
+  height: 100%;
 }
 h1 {
   font-family: K2D, sans-serif, Arial, Helvetica;
@@ -147,4 +147,197 @@ h1:first-of-type {
   font-family: Inter-regular, sans-serif;
   font-size: 2rem;
   color: #fffbfb;
+}
+
+@media screen and (max-width: 1025px) {
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin: 0;
+    line-height: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3vh;
+  }
+
+  .everything {
+    padding-left: 0;
+  }
+
+  .name-portrait {
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .name-portrait img {
+    padding-top: 2vh;
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding-top: 3rem;
+  }
+
+  .wireframe1 {
+    margin: 0;
+    height: auto;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  .description-wrapper {
+    margin-left: 5vw;
+    width: 80vw;
+  }
+
+  .aboutme {
+    padding-top: 15vh;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wireframe2 {
+    max-width: 90vw;
+    /* overflow: hidden; */
+  }
+
+  .wireframe2 p {
+    margin: 0;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+    font-size: 16px;
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
+    text-align: center;
+  }
+
+  .table {
+    margin: 0;
+    padding-top: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .table li {
+    padding-top: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .table ul div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .wireframe3 {
+    margin: 0;
+  }
+
+  .wireframe3 h3 {
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+
+  .projects {
+    flex-direction: column;
+    margin: 0;
+    padding-top: 1rem;
+  }
+
+  .projects a:first-of-type {
+    margin: 0;
+    padding: 0 5vw;
+    word-break: break-all;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .projects a:last-of-type {
+    padding: 0;
+    margin: 0;
+  }
+
+  .projects a:last-of-type img {
+    padding: 0;
+    margin: 0;
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .projects:last-of-type a:last-of-type img {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .projects-headline {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    margin: 0;
+  }
+
+  .projects a {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .wireframe3 p {
+    margin: 0;
+    padding-left: 5vw;
+    padding-bottom: 10vh;
+    font-size: 16px;
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
+    text-align: center;
+    /* font-size: 1rem; */
+  }
+
+  .wireframe4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+  }
+
+  .contact-table {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+
+  .wireframe4 ul li,
+  .wireframe4 a {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .wireframe4 .contact-table div a {
+    text-align: center;
+    padding: 0 5vw;
+    font-size: 1rem;
+  }
+
+  .wireframe4 .contact-table div {
+    padding-bottom: 2rem;
+  }
 }

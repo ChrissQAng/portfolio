@@ -9,6 +9,8 @@
   height: 4rem;
   border: 2px solid white;
   border-radius: 20px;
+  position: relative;
+  left: 5vw;
 }
 
 .navbar p {
@@ -26,4 +28,30 @@
   display: flex;
   justify-content: space-between;
   gap: 1.25rem;
+}
+
+@media screen and (max-width: 1025px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .navbar p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  }
+
+  .navbar .navigation {
+    width: 100%;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
 }
