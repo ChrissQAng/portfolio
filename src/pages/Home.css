@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-family: K2D-semibold, sans-serif;
+  font-size: 100px;
+  line-height: 6rem;
+  margin-left: 5vw;
+}
+h3 {
+  font-family: K2D-semibold, sans-serif;
+  font-size: 60px;
+  padding-top: 5vh;
+}
+.everything {
+  padding-left: 50px;
+  background-color: #120720;
+  /* width: 100vw; */
+}
+.wireframe1 {
+  padding-top: 5vh;
+}
+.name-portrait {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+}
+.name-portrait img {
+  scale: 0.5;
+}
+h1 {
+  font-family: K2D, sans-serif, Arial, Helvetica;
+  font-size: 8.75rem;
+}
+h1:first-of-type {
+  padding-top: 6.25rem;
+}
+
+.description {
+  font-family: Inter-regular, sans-serif;
+  font-size: 1.875rem;
+
+  padding-left: 1.25rem;
+  border-left: 0.125rem solid;
+}
+.description-wrapper {
+  margin-top: 5vh;
+  margin-left: 35vw;
+  width: 30vw;
+}
+
+.aboutme {
+  /* margin-left: 5vw; */
+  margin-bottom: 3vh;
+  padding-top: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wireframe2 p {
+  margin-left: 35vw;
+  margin-bottom: 20vh;
+  font-family: Inter-regular, sans-serif;
+  font-size: 20px;
+  width: 50vw;
+}
+
+.table {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem;
+}
+.table div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.table ul {
+  list-style-type: none;
+}
+.table li {
+  margin-bottom: 1.25rem;
+  font-family: Inter-regular, sans-serif;
+  font-size: 1.5rem;
+  color: #fffbfb;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin: 5vh 0;
+}
+.projects-headline {
+  padding-top: 25vh;
+  /* padding-left: 5vw; */
+  padding-bottom: 20vh;
+}
+
+.projects a {
+  /* display: block; */
+  margin-left: 1.25rem;
+  font-family: Inter-regular, sans-serif;
+  font-size: 1.5rem;
+  color: #fffbfb;
+}
+.projects img {
+  scale: 0.7;
+}
+
+.wireframe3 p {
+  margin-top: 5vh;
+  margin-left: 35vw;
+  width: 40vw;
+  font-family: Inter-regular, sans-serif;
+  font-size: 1.3rem;
+  color: #fffbfb;
+}
+.wireframe4 {
+  padding-top: 25vh;
+  padding-bottom: 20vh;
+}
+#contact {
+  margin-bottom: 10vh;
+  /* margin-left: 5vw; */
+}
+.contact-table {
+  margin-left: 10vw;
+  display: flex;
+  gap: 1.875rem;
+  width: 70vw;
+}
+.wireframe4 ul {
+  list-style-type: none;
+}
+.wireframe4 ul li {
+  font-family: Inter-regular, sans-serif;
+  font-size: 2rem;
+  color: #fffbfb;
+}
+.wireframe4 a {
+  display: block;
+  font-family: Inter-regular, sans-serif;
+  font-size: 2rem;
+  color: #fffbfb;
+}
