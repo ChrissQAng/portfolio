@@ -46,7 +46,7 @@ const Home = () => {
               <img src="/pngs/5dots.png" alt="5 dots" />
             </div>
             <div>
-              <li>JAVASCRPT</li>
+              <li>JAVASCRIPT</li>
               <img src="/pngs/5dots.png" alt="5 dots" />
             </div>
             <div>
