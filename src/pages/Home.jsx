@@ -27,11 +27,11 @@ const Home = () => {
           {/* <img src="/pngs/gg_arrow-left.png" alt="arrow left to right" /> */}
         </div>
         <p>
-          Meet Christian , a talented web developer with a passion for crafting
+          Meet Christian, a talented web developer with a passion for crafting
           elegant and functional digital solutions. Armed with expertise in
-          HTML,CSS, JavaScript, and more. Their keen eye for detail,coupled with
-          their commitment to staying abreast of industry trends, ensures that
-          every project they undertake is not only visually stunning but also
+          HTML, CSS, JavaScript, and more, Christian has a keen eye for detail
+          and a commitment to staying abreast of industry trends. This ensures
+          that every project undertaken is not only visually stunning but also
           optimized for peak performance.
         </p>
         <h2 id="skills">My Skills</h2>
@@ -81,7 +81,7 @@ const Home = () => {
         <h3>SILENT MOON</h3>
         <div className="projects">
           <a href="https://github.com/ChrissQAng/silentMoon">
-            https://github.com/ChrissQAng/silentMoon
+            www.github.com/ChrissQAng/silentMoon
           </a>
           <a href="https://silentmoon.superprojekte.de/">
             <img src="/pngs/silentMoonPic.png" alt="screenshot" />
@@ -95,7 +95,7 @@ const Home = () => {
         <h3>FREE4GAME</h3>
         <div className="projects">
           <a href="https://github.com/ChrissQAng/FREE4GAME">
-            https://github.com/ChrissQAng/FREE4GAME
+            www.github.com/ChrissQAng/FREE4GAME
           </a>
           <a href="https://free2-game-v2.vercel.app/">
             <img src="/pngs/free2GamePic.png" alt="screenshot" />
@@ -110,23 +110,12 @@ const Home = () => {
       <section className="wireframe4">
         <h2 id="contact">Contact Me</h2>
         <div className="contact-table">
-          <ul>
-            <li>EMAIL</li>
-            <li>LINKEDIN</li>
-            <br />
-            <li>github</li>
-          </ul>
-          <div>
-            <a href="chrissangerer@web.de">chrissangerer@web.de</a>
-
-            <a href="https://www.linkedin.com/in/christian-angerer">
-              https://www.linkedin.com/in/christian-angerer
-            </a>
-            <br />
-            <a href="https://github.com/ChrissQAng">
-              https://github.com/ChrissQAng
-            </a>
-          </div>
+          <a href="mailto:chrissangerer@web.de">chrissangerer@web.de</a>
+          <a href="#">0172.6691255</a>
+          <a href="https://www.linkedin.com/in/christian-angerer">
+            www.linkedin.com/in/christian-angerer
+          </a>
+          <a href="https://github.com/ChrissQAng">www.github.com/ChrissQAng</a>
         </div>
       </section>
     </div>

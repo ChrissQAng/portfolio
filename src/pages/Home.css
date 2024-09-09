@@ -42,7 +42,6 @@ h1:first-of-type {
 .description {
   font-family: Inter-regular, sans-serif;
   font-size: 1.875rem;
-
   padding-left: 1.25rem;
   border-left: 0.125rem solid;
 }
@@ -53,7 +52,6 @@ h1:first-of-type {
 }
 
 .aboutme {
-  /* margin-left: 5vw; */
   margin-bottom: 3vh;
   padding-top: 30vh;
   display: flex;
@@ -65,6 +63,7 @@ h1:first-of-type {
   margin-bottom: 20vh;
   font-family: Inter-regular, sans-serif;
   font-size: 20px;
+  text-align: justify;
   width: 50vw;
 }
 
@@ -119,6 +118,7 @@ h1:first-of-type {
   font-family: Inter-regular, sans-serif;
   font-size: 1.3rem;
   color: #fffbfb;
+  text-align: justify;
 }
 .wireframe4 {
   padding-top: 25vh;
@@ -126,29 +126,31 @@ h1:first-of-type {
 }
 #contact {
   margin-bottom: 10vh;
-  /* margin-left: 5vw; */
 }
 .contact-table {
   margin-left: 10vw;
   display: flex;
-  gap: 1.875rem;
-  width: 70vw;
-}
-.wireframe4 ul {
-  list-style-type: none;
-}
-.wireframe4 ul li {
-  font-family: Inter-regular, sans-serif;
-  font-size: 2rem;
-  color: #fffbfb;
-}
-.wireframe4 a {
-  display: block;
-  font-family: Inter-regular, sans-serif;
-  font-size: 2rem;
-  color: #fffbfb;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: fit-content;
 }
 
+.wireframe4 a {
+  display: flex;
+  font-family: Inter-regular, sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #120720;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.wireframe4 a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+/* ===================================== */
 @media screen and (max-width: 1025px) {
   h1 {
     text-align: center;
@@ -210,7 +212,6 @@ h1:first-of-type {
 
   .wireframe2 {
     max-width: 90vw;
-    /* overflow: hidden; */
   }
 
   .wireframe2 p {
@@ -221,7 +222,7 @@ h1:first-of-type {
     width: 90vw;
     max-width: 90vw;
     height: auto;
-    text-align: center;
+    text-align: justify;
   }
 
   .table {
@@ -308,8 +309,7 @@ h1:first-of-type {
     width: 90vw;
     max-width: 90vw;
     height: auto;
-    text-align: center;
-    /* font-size: 1rem; */
+    text-align: justify;
   }
 
   .wireframe4 {
@@ -320,24 +320,15 @@ h1:first-of-type {
 
   .contact-table {
     margin: 0;
+    padding-bottom: 10vh;
     flex-direction: column;
     align-items: center;
     width: 90vw;
   }
 
-  .wireframe4 ul li,
   .wireframe4 a {
     margin: 0;
-    font-size: 1.5rem;
-  }
-
-  .wireframe4 .contact-table div a {
-    text-align: center;
-    padding: 0 5vw;
     font-size: 1rem;
-  }
-
-  .wireframe4 .contact-table div {
-    padding-bottom: 2rem;
+    /* text-align: center; */
   }
 }
