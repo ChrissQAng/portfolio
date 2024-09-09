@@ -88,9 +88,10 @@ const Home = () => {
           </a>
         </div>
         <p>
-          This Yoga-App created with REACT and NODE.JS was coded in
-          collaboration with 2 other students. I created almost the whole
-          BACKEND and some FRONTEND-Pages with TAILWIND.
+          This Yoga App, created with React and Node.js, was developed in
+          collaboration with two other students. I was responsible for almost
+          the entire backend and also contributed to some frontend pages using
+          Tailwind CSS.
         </p>
         <h3>FREE4GAME</h3>
         <div className="projects">
@@ -102,16 +103,16 @@ const Home = () => {
           </a>
         </div>
         <p>
-          This FREE4GAME-App created with REACT and a "Game-API" was coded in
-          collaboration with 2 other students. I created some main pages and the
-          connection to the API.
+          This FREE4GAME App, created with React and a Game API, was developed
+          in collaboration with two other students. I was responsible for
+          creating some main pages and establishing the connection to the API.
         </p>
       </section>
       <section className="wireframe4">
         <h2 id="contact">Contact Me</h2>
         <div className="contact-table">
           <a href="mailto:chrissangerer@web.de">chrissangerer@web.de</a>
-          <a href="#">0172.6691255</a>
+          <a href="tel:01726691255">0172.6691255</a>
           <a href="https://www.linkedin.com/in/christian-angerer">
             www.linkedin.com/in/christian-angerer
           </a>
