@@ -18,6 +18,7 @@ h3 {
 .everything {
   padding-left: 50px;
   background-color: #120720;
+  overflow-x: hidden;
   /* width: 100vw; */
 }
 .wireframe1 {
