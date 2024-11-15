@@ -1,7 +1,11 @@
 import Navbar from "../components/Navbar";
 import "./Home.css";
+import { tombola, ebula } from "../assets/div/helpers";
 
 const Home = () => {
+  const tunis = tombola.join("");
+  const euro = ebula.join("");
+
   return (
     <div className="everything">
       <section className="wireframe1">
@@ -111,8 +115,8 @@ const Home = () => {
       <section className="wireframe4">
         <h2 id="contact">Contact Me</h2>
         <div className="contact-table">
-          <a href="mailto:chrissangerer@web.de">chrissangerer@web.de</a>
-          <a href="tel:01726691255">0172.6691255</a>
+          <a href={euro}>{euro}</a>
+          <a href={tunis}>{tunis}</a>
           <a href="https://www.linkedin.com/in/christian-angerer">
             www.linkedin.com/in/christian-angerer
           </a>
